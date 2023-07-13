@@ -17,7 +17,8 @@
  * under the License.
  */
 import { isFeatureEnabled, Preset, FeatureFlag } from '@superset-ui/core';
-import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
+// import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
+import CalendarRPMChartPlugin from '@ui-back-to-the-future/plugin-rpm-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
 import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
 import EventFlowChartPlugin from '@superset-ui/legacy-plugin-chart-event-flow';
@@ -101,7 +102,7 @@ export default class MainPreset extends Preset {
         new EchartsBoxPlotChartPlugin().configure({ key: 'box_plot' }),
         new BubbleChartPlugin().configure({ key: 'bubble' }),
         new BulletChartPlugin().configure({ key: 'bullet' }),
-        new CalendarChartPlugin().configure({ key: 'cal_heatmap' }),
+        new CalendarRPMChartPlugin().configure({ key: 'cal_heatmap' }),
         new ChordChartPlugin().configure({ key: 'chord' }),
         new CompareChartPlugin().configure({ key: 'compare' }),
         new CountryMapChartPlugin().configure({ key: 'country_map' }),
