@@ -1,7 +1,7 @@
 {
-  "name": "@superset-ui/legacy-plugin-chart-calendar",
-  "version": "0.18.25",
-  "description": "Superset Legacy Chart - Calendar Heatmap",
+  "name": "@ui-back-to-the-future/plugin-rpm-chart-calendar",
+  "version": "2.1.0",
+  "description": "Superset Legacy Chart - RPM Calendar Heatmap",
   "keywords": [
     "superset"
   ],
