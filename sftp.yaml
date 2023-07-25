@@ -1,0 +1,9 @@
+sftp:
+    image: atmoz/sftp
+    volumes:
+        - /home/ec2-user/sftp/upload/SendFiles:/home/sftp/SendFiles
+        - /home/ec2-user/sftp/upload/ReceiveFiles:/home/sftp/ReceiveFiles
+        - /home/ec2-user/sftp/upload/Announcements:/home/sftp/Announcements
+    ports:
+        - "9922:22"
+    command: sftp:pass:1001
