@@ -17,7 +17,6 @@
  * under the License.
  */
 import { isFeatureEnabled, Preset, FeatureFlag } from '@superset-ui/core';
-// import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import CalendarRPMChartPlugin from '@ui-back-to-the-future/plugin-rpm-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
 import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
